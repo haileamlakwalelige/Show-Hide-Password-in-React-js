@@ -5,7 +5,7 @@ import Facebook from './facebook/Facebook';
 
 export default function App() {
 
-  const [show, setShow]=useState(false);
+  const [show, setShow]=useState(true);
   const handleShow=()=>{
     setShow(!show);
   }
